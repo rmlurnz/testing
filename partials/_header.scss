@@ -1,7 +1,7 @@
 .top {
-	margin: 0;
-	padding: 0;
-	background-color: #488e48;
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 0;
+	background-color: $green;
 	&-title {
 		color: white;
 		text-shadow: 2px 2px black;
@@ -9,4 +9,31 @@
 		margin-left: 30px;
 		padding: 7px 0;
 	}
+	&-nav {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		list-style-type: none;
+		&-buttons {
+			display: inline-block;
+			padding: 5px 5%;
+			border: 2px solid white;
+
+		}
+	}
+}
+
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+.top-nav-buttons:hover, a:hover {
+	color: $green;
+	background-color: white;
 }

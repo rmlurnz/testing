@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Bloggzville - Contact</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<header class="top" role="banner">
+			<h1 class="top-title">Bloggzville</h1>
+			<ul class="top-nav">
+				<li class="top-nav-buttons"><a href="https://github.com/rmlurnz/testing">Home</a></li>
+				<li class="top-nav-buttons"><a href="https://github.com/rmlurnz/testing">About</a></li>
+				<li class="top-nav-buttons"><a href="https://github.com/rmlurnz/testing">Contact</a></li>
+		</header>
+
+		<p class="etc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut metus tortor, suscipit non sem et, volutpat semper neque. Integer ac nibh in enim iaculis iaculis. Fusce posuere at purus in auctor. Nunc convallis ligula leo, et elementum lectus volutpat nec.
+		</p>
+
+		<form action="/queston" method="submit">
+			<fieldset>
+				<legend>Please fill out the form below: </legend>
+					Fields marked with <span>**</span> are required.
+					<br><br>
+					<label for=" firstname">First Name:<span>**</span></label><input type="text" name="firstname" required aria-required="true" placeholder="John">
+					<label for="lastname">Last Name:</label><input type="text" name="lastname" placeholder="Doe">
+					<label for="email-address">E-mail:<span>**</span></label><input type="email" name="email-address" required aria-required="true" placeholder="name@domain.com">
+					<label for="website">Current URL:</label><input type="url" name="website" id="site" aria-describedby="site-note" placeholder="http://www.yourwebsite.com">
+					<label for="phone-number">Telephone:</label><input type="tel" name="phone-number" placeholder="1-XXX-XXX-XXXX">
+					<label for="concerns">Send me any questions or concerns you may have.  Once I review your message, I will contact you as soon as I can to follow up! <span>**</span></label><textarea name="concerns" required aria-required="true" placeholder="Let me know what you're thinking!"></textarea>
+					<input type="submit" name="submit" value="Send">
+			</fieldset>
+		</form>
+
+		<p class="etc">Fusce porta nulla urna, eu convallis metus vehicula sit amet. Duis interdum aliquet ultrices. Sed aliquam velit at interdum tincidunt. Maecenas a hendrerit nulla. Proin vel arcu eu quam ornare congue porttitor eget est.
+		</p>
+		<footer role="contentinfo">
+			<p class="copyright">SAIT WBDV Class - Copyright 2016</p>
+		</footer>
+	</main>
+</body>
+</html>
