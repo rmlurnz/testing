@@ -1,23 +1,24 @@
-
+@import "partials/_header.scss";
+@import "partials/_biocard.scss";
+@import "partials/_content.scss";
 
 img {max-width: 100%;}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: lightgrey;
+	line-height: 1.4;
+}
 
 header {
 	margin: 0;
 	padding: 0;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-}
-
-.about-me {
-	color: white;
-	text-align: center;
-	background-color: #488e48;
-}
-
-.content {
-	
+@media screen and (min-width: 50em) {
+	.container {
+		display: flex;
+	}
 }

@@ -1,0 +1,21 @@
+.biocard {
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+	background-color: black;
+	padding: 10px 0;
+	&-traits {
+		list-style-type: none;
+		text-align: center;
+		margin: 0;
+		padding: 0 0 25px 0;
+	}
+}
+
+/* #488e48 */
+
+@media screen and (min-width: 50em) {
+	.biocard {
+		margin: 10px 0 10px 1%;
+	}
+}
